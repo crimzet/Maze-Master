@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Maze Master</title>
+</head>
+<body>
+    <canvas id="canv"></canvas>
+    <script src="maze.js"></script>
+    <script src="main.js"></script>
+    <div id="menu">
+        <div id="bar">
+            <div class="btn" id="import">
+                <img src="https://www.svgrepo.com/show/66883/data-import-interface-symbol.svg" width="50px" height="50px">
+            </div>
+            <div class="btn" id="settings">
+                <img src="https://www.svgrepo.com/show/60515/edit.svg" width="35px" height="35px">
+            </div>
+        </div>
+        <div class="content">
+            <h3>DOWNLOAD MAZE HERE:</h3>
+            <div>
+                <button id="download-btn">Download</button>
+            </div>
+        </div>
+        <div class="content">
+            <h3>MAZE SETTINGS:</h3>
+            <div>
+                <p>SIZE:</p>
+                <input type="text" id="width">
+                <input type="text" id="height">
+                <button id="size-btn">Submit</button>
+            </div>
+            <div>
+                <p>SPEED:</p>
+                <input type="text" id="speed">
+                <button id="speed-btn">Submit</button>
+            </div>
+        </div>
+</body>
+</html>
